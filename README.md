@@ -22,15 +22,27 @@ This application consist of Browser router to navigate through different section
 
 
 
-To run this application:-
+# To run this application:-
 
-Download the ZIP code
+# Download the ZIP code
 
 It consist of two folder client and server
 
 open an individual terminal for each client and server and give the command to install node modules "npm i"
 
 after the command 'npm i' --> npm run start. data base will gets connected and frontend also starts to run
+
+note : For Authentication alone mongodb used to store user credentials. 
+// if you couldn't login in (incase of mongodb connection error) use below token
+
+setlocalstorage key: value
+like this
+
+created a token for email: priyatharsini702@gmail.com  and password: Crud123crud@
+
+token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDU3NDk0NzIsImV4cCI6MTcwNTgzNTg3Mn0.eNVb02b3HFy3zLKzDucAQQ5ABOM3kS2exZ2YaBnud_s
+
+and enter login -> it will direct you to the landing page
 
 
 
